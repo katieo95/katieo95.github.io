@@ -7,10 +7,19 @@ body {
 
 div {
   border-radius: 50%;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
 }
 
 div:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
   border: dotted #202429 4px;
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
 }
 
 h1 {
@@ -20,6 +29,13 @@ h1 {
   color: #202429;
   margin: 60px 0 100px 0;
 }
+
+
+div:hover p {
+  opacity: 1;
+  color: black;
+}
+
 
 
 /*h2 {
@@ -45,17 +61,15 @@ p {
   -moz-transition: height .5s;
 }*/
 
-small {
-  opacity: 0;
+p {
+  font-family: 'Pacifico', cursive;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 40px;
+  opacity: 0.0;
+  filter: alpha(opacity=0);
 }
 
-.show-description p {
-  height: 150px;
-}
-
-.show-description small {
-  opacity: 1;
-}
 
 .Sweden {
   width: 300px;
