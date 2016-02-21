@@ -130,8 +130,17 @@ img.scountry{
   opacity: 1;
 }
 
-img
-{
+img {
+  display: block;
+  margin: 15px auto;
+}
+
+div.imgWrapl {
+  display: block;
+  margin: 15px auto;
+}
+
+div.imgWraps {
   display: block;
   margin: 15px auto;
 }
