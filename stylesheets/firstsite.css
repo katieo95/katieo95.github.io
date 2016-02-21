@@ -36,8 +36,6 @@ div:hover p {
   color: black;
 }
 
-
-
 /*h2 {
   text-align: center;
   color: #bbbbbb;
@@ -165,4 +163,44 @@ img {
   width: 50px;
   display: inline block;
   margin-bottom: 20px;
+}
+
+/*div#plane {
+  position: fixed;
+    top:40px;
+    left:0;
+    width: 40px;
+    height: 40px;
+}*/
+
+img#plane1{
+  height: 100px;
+  width: 100px;
+
+}
+
+div#plane {
+    left: 45%;
+    position: absolute;
+    top: 38%;
+
+    
+    /* Set up the animation */
+    animation: orbit 20s linear infinite;
+}
+
+
+div#enter {
+    left: 40%;
+    top: 40%;
+    position: absolute;
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Note that the second rotate in each of the transforms below has been removed */
+@keyframes orbit {
+  from {  transform: rotate(0deg) translateX(200px); }
+  to   {  transform: rotate(360deg) translateX(200px); }
 }

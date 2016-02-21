@@ -1,0 +1,36 @@
+body #main{
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 1000px;
+  background: #EBF4FA;
+}
+
+div.country{
+  border-radius: 50%;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+div.country :hover {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  border: dotted #202429 4px;
+}
+
+/*img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}*/
+
+h1.title {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 60px;
+  color: #202429;
+  margin: 60px 0 100px 0;
+}
+
+/*div:hover p {
+  opacity: 1;
+  color: black;
+}*/
